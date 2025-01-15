@@ -4,7 +4,11 @@ List<Map<String, dynamic>> dummyprducts=[
     "name" :"laptop",
     "price" :"500000",
      "image":"assets/images/laptop.jpeg",
-      "details":"lenova"
+    "image1":"assets/images/phone.jpeg",
+    "image2":"assets/images/keybord.jpeg",
+
+
+    "details":"lenova"
   },
   {
     "id":2,
@@ -12,6 +16,9 @@ List<Map<String, dynamic>> dummyprducts=[
     "name" :"Mobile",
     "price" :"60000",
     "image":"assets/images/phone.jpeg",
+    "image1":"assets/images/laptop.jpeg",
+    "image2":"assets/images/keybord.jpeg",
+
     "details":"iphone"
   },
   {
@@ -20,6 +27,9 @@ List<Map<String, dynamic>> dummyprducts=[
     "name" :"keyboard",
     "price" :"3000",
     "image":"assets/images/keybord.jpeg",
+    "image1":"assets/images/phone.jpeg",
+    "image2":"assets/images/laptop.jpeg",
+
     "details":"no details"
   }, {
     "id":4,
@@ -27,6 +37,9 @@ List<Map<String, dynamic>> dummyprducts=[
     "name" :"mouse",
     "price" :"1500",
     "image":"assets/images/mouse.jpeg",
+    "image1":"assets/images/phone.jpeg",
+    "image2":"assets/images/keybord.jpeg",
+
     "details":"no details"
   },
   {
@@ -35,6 +48,9 @@ List<Map<String, dynamic>> dummyprducts=[
     "name" :"charger",
     "price" :"4000",
     "image":"assets/images/charger.jpeg",
+    "image1":"assets/images/phone.jpeg",
+    "image2":"assets/images/keybord.jpeg",
+
     "details":"no details"
   }
 ];

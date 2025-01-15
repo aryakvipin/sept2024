@@ -14,7 +14,11 @@ class Bottamamsheet extends StatelessWidget {
   }
 
  void show(BuildContext  context) {
-    showModalBottomSheet(context: context, builder: (context){
+    showModalBottomSheet(
+        shape:  const RoundedRectangleBorder(
+    borderRadius: BorderRadius.vertical(top: Radius.circular(25.0)),
+   ),
+        context: context, builder: (context){
       return ListView(
         children: [
 
