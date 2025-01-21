@@ -46,6 +46,8 @@ dependencies:
   hive:
   get:
   email_validator:
+  http:
+  cached_network_image:
 dev_dependencies:
   flutter_test:
     sdk: flutter
