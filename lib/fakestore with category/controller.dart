@@ -7,6 +7,7 @@ class ProductController extends GetxController {
   var isLoadingCategories = true.obs;
   var isLoadingProducts = true.obs;
 
+
   @override
   void onInit() {
     super.onInit();

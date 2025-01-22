@@ -15,6 +15,7 @@ class FakestoreService {
     }
   }
 
+
   Future<List<Map<String, dynamic>>> getProductsByCategory(String category) async {
     final response = await http.get(Uri.parse("$baseUrl/products/category/$category"));
     if (response.statusCode == 200) {
