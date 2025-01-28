@@ -47,7 +47,15 @@ dependencies:
   get:
   email_validator:
   http:
+  dio: ^5.7.0
+  internet_connection_checker:
+  scrollable_positioned_list: ^0.3.8
+  connectivity_plus: ^5.0.2
+
   cached_network_image:
+  provider:
+  top_snackbar_flutter:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -1,7 +1,5 @@
-import 'package:http/http.dart'as http;
-
-import '../../foodapi/model/recipe.dart';
-import '../model/productModel.dart';
+import 'package:http/http.dart' as http;
+import '../model/recipe.dart';
 
 class RecipeService {
   static const String _baseUrl = 'https://dummyjson.com/recipes';

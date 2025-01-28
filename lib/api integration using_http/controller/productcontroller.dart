@@ -15,7 +15,7 @@ class ProductController extends GetxController{
   void getProducts() async{
     try{
       isLoading(true);
-      var products = await HttpService.fetchProductus();
+      var products = await RecipeService.fetchRecipes();
       if(products != null){
         productList.value = products;
       }
